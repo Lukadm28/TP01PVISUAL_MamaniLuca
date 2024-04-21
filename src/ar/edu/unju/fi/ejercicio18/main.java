@@ -54,11 +54,15 @@ public class main {
 		                        input.nextLine();  // Limpiar el buffer
 
 		                        System.out.println("Ingrese el código del país al que pertenece el destino turístico:");
+		                        System.out.println("1 Argentina");
+		                        System.out.println("2 Brazil");
+		                        System.out.println("3 Uruguay");
+		                        System.out.println("4 Peru");
 		                        int codigoPais = input.nextInt();
-		                        paises.add(new Pais(1, nombre ));
-		                    	paises.add(new Pais(2, nombre ));
-		                    	paises.add(new Pais(3, nombre ));
-		                    	paises.add(new Pais(4, nombre));
+		                        paises.add(new Pais(1, "Argentina" ));
+		                    	paises.add(new Pais(2, "brazil" ));
+		                    	paises.add(new Pais(3, "uruguay" ));
+		                    	paises.add(new Pais(4, "peru"));
 
 		                        // Buscar el país con el código ingresado en el ArrayList de países
 		                        Pais paisAsociado = null;
