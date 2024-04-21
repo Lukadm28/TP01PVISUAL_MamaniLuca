@@ -10,14 +10,15 @@ public class main {
 		        Scanner sc = new Scanner(System.in);
 
 		        
-		        int tamanoArray;
+		        int tamanioArray;
 		        do {
 		            System.out.print("Ingrese el tamaño del array (entre 5 y 10): ");
-		            tamanoArray = sc.nextInt();
-		        } while (tamanoArray < 5 || tamanoArray > 10);
+		            tamanioArray = sc.nextInt();
+		        } while (tamanioArray < 5 || tamanioArray > 10);
+		       
 
 		      
-		        String[] nombres = new String[tamanoArray];
+		        String[] nombres = new String[tamanioArray];
 
 		        for (int i = 0; i < nombres.length; i++) {
 		            System.out.print("Ingrese el nombre de la persona para la posición " + i + ": ");
